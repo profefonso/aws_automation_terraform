@@ -21,7 +21,7 @@ And of course Dillinger itself is open source with a [public repository][dill]
 
 ### Instalación
 
-Para la instalación requiere [Terraform](https://www.terraform.io/) y una Cuenta AWS [AWS](https://aws.amazon.com/es/console/).
+Para la instalación requiere [Terraform](https://www.terraform.io/) y una Cuenta [AWS](https://aws.amazon.com/es/console/).
 
 Clonar el proyecto e ingresar al directorio creado
 
