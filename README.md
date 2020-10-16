@@ -39,7 +39,7 @@ my_secret_key = "YOUR_SECRET_KEY"
 
 ### Probar Despliegue en AWS
 
-# Iniciando la configuracion: Para iniciar el entorno terraform usamos el comando.
+#### Iniciando la configuracion: Para iniciar el entorno terraform usamos el comando.
 
 ```sh
 $ terraform init 
@@ -47,7 +47,7 @@ $ terraform init
 Este comando instalará todos los binarios del proveedor y preparará el directorio de trabajo para trabajar con él.
 
 
-# Creado el Plan de despliegue:
+#### Creado el Plan de despliegue:
 
 ```sh
 $ terraform plan 
@@ -55,7 +55,7 @@ $ terraform plan
 Este comando lee el código de configuración de main.tf, compara el estado deseado de la infraestructura con lo que realmente existe. Luego crea un plan de qué hacer para que pueda alcanzar su estado deseado y muestra lo que se cambiará.
 
 
-# Desplegando la Infraestructura:
+#### Desplegando la Infraestructura:
 
 ```sh
 $ terraform apply 
@@ -63,7 +63,7 @@ $ terraform apply
 Este comando ejecuta terraform plan al principio y luego procede a crear su infraestructura.
 Si ingresamos a la consola de AWS y Validamos que la Infraestructura se ha creado exitosamente.
 
-# Destruir la Infraestructura creada:
+#### Destruir la Infraestructura creada:
 
 ```sh
 $ terraform destroy 
